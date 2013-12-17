@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.tasking.config.arm.abs.debug.2044455393">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.tasking.config.arm.abs.debug.2044455393" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TskRegexErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="abs" artifactName="STM32L152RB (STM32L-DISCOVERY)" buildArtefactType="com.tasking.arm.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.arm.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.config.arm.abs.debug.2044455393" name="Debug" parent="com.tasking.config.arm.abs.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="com.tasking.config.arm.abs.debug.2044455393." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.tasking.arm.abs.debug.315882766" name="TASKING VX-toolset for ARM" superClass="com.tasking.arm.abs.debug">
+							<option id="com.tasking.arm.pluginVersion.306560835" name="Plugin version" superClass="com.tasking.arm.pluginVersion" value="1.86.0.0" valueType="string"/>
+							<option id="com.tasking.arm.prodDir.527888595" name="Product directory:" superClass="com.tasking.arm.prodDir" value="${eclipse_home}/.." valueType="string"/>
+							<option id="com.tasking.arm.cpu.1659227005" name="Processor:" superClass="com.tasking.arm.cpu" value="STM32L152RB" valueType="string"/>
+							<option id="com.tasking.arm.globalOptions.endianness.847552914" name="Endianness:" superClass="com.tasking.arm.globalOptions.endianness" value="com.tasking.arm.globalOptions.endianness.little" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.tasking.arm.platform.abs.debug.2077143327" name="Debug" osList="" superClass="com.tasking.arm.platform.abs.debug"/>
+							<builder buildPath="${workspace_loc:/STM3210B-EVAL/Debug}" errorParsers="" id="com.tasking.arm.builder.abs.debug.1207760117" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING ARM Makefile generator" parallelBuildOn="true" parallelizationNumber="-1" superClass="com.tasking.arm.builder.abs.debug"/>
+							<tool command="ccarm" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.arm.cc.abs.debug.1657066278" name="C/C++ Compiler" superClass="com.tasking.arm.cc.abs.debug">
+								<option id="com.tasking.arm.cc.pr36858.1629322841" name="workaround for PR36858" superClass="com.tasking.arm.cc.pr36858" value="true" valueType="string"/>
+								<option id="com.tasking.arm.cc.includePaths.449008655" name="Include paths" superClass="com.tasking.arm.cc.includePaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="..\..\..\inc"/>
+									<listOptionValue builtIn="false" value="..\..\..\..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32L1xx"/>
+									<listOptionValue builtIn="false" value="..\..\..\..\..\libraries\STM32L1xx_StdPeriph_Driver\inc"/>
+									<listOptionValue builtIn="false" value="..\..\..\..\..\Libraries\STMTouch_Driver\inc"/>
+									<listOptionValue builtIn="false" value="..\..\..\..\..\Utilities\STM32L-DISCOVERY"/>
+								</option>
+								<option id="com.tasking.arm.cc.definedSymbols.2139466164" name="Defined symbols" superClass="com.tasking.arm.cc.definedSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32L1XX_MD"/>
+								</option>
+								<option id="com.tasking.arm.cc.optimize.1365289574" name="Optimization level:" superClass="com.tasking.arm.cc.optimize" value="com.tasking.arm.cc.optimize.3" valueType="enumerated"/>
+								<option id="com.tasking.arm.cc.tradeoff.1958267302" name="Trade-off between speed and size:" superClass="com.tasking.arm.cc.tradeoff" value="com.tasking.arm.cc.tradeoff.4" valueType="enumerated"/>
+								<option id="com.tasking.arm.cc.globalTypeChecking.1184544748" name="Perform global type checking on C code" superClass="com.tasking.arm.cc.globalTypeChecking" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.nowarning.398961799" name="Suppress C compiler warnings" superClass="com.tasking.arm.cc.nowarning" valueType="stringList">
+									<listOptionValue builtIn="false" value="529"/>
+									<listOptionValue builtIn="false" value="549"/>
+									<listOptionValue builtIn="false" value="557"/>
+									<listOptionValue builtIn="false" value="560"/>
+									<listOptionValue builtIn="false" value="578"/>
+									<listOptionValue builtIn="false" value="581"/>
+									<listOptionValue builtIn="false" value="588"/>
+								</option>
+								<option id="com.tasking.arm.cc.defaultHeaderFile.1126538551" name="Include CMSIS device register definition header file" superClass="com.tasking.arm.cc.defaultHeaderFile" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.cmsisIncludePaths.1232400927" name="Add CMSIS include paths" superClass="com.tasking.arm.cc.cmsisIncludePaths" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.codeGeneration.useFpu.1037423562" name="Use FPU" superClass="com.tasking.arm.cc.codeGeneration.useFpu" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.additionalOptions.2089822954" name="Additional options:" superClass="com.tasking.arm.cc.additionalOptions" value="" valueType="string"/>
+								<option id="com.tasking.arm.cc.codeGeneration.Thumb.51606921" name="Use Thumb instruction set" superClass="com.tasking.arm.cc.codeGeneration.Thumb" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.source.869274097" name="Merge C source code with generated assembly" superClass="com.tasking.arm.cc.source" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.controlFlowSimplification.1244597463" name="Control flow simplification" superClass="com.tasking.arm.cc.optimize.controlFlowSimplification" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.constPropagation.122434576" name="Constant propagation" superClass="com.tasking.arm.cc.optimize.constPropagation" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.codeCompaction.351581596" name="Code compaction" superClass="com.tasking.arm.cc.optimize.codeCompaction" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.peephole.417152911" name="Peephole optimizations" superClass="com.tasking.arm.cc.optimize.peephole" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.forwardStore.304148683" name="Forward store" superClass="com.tasking.arm.cc.optimize.forwardStore" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.inlining.1132609953" name="Automatic function inlining" superClass="com.tasking.arm.cc.optimize.inlining" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.loopTransform.346470503" name="Loop transformations" superClass="com.tasking.arm.cc.optimize.loopTransform" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.unroll.234798496" name="Unroll small loops" superClass="com.tasking.arm.cc.optimize.unroll" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.unsignedChar.1746674690" name="Treat &quot;char&quot; variables as unsigned" superClass="com.tasking.arm.cc.unsignedChar" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.cluster.164738346" name="Cluster global variables" superClass="com.tasking.arm.cc.optimize.cluster" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.interprocRegOptims.1199818943" name="Interprocedural register optimizations" superClass="com.tasking.arm.cc.optimize.interprocRegOptims" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.cse.3077362" name="Common subexpression elimination" superClass="com.tasking.arm.cc.optimize.cse" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.regCoalescer.276407955" name="Register coalescer" superClass="com.tasking.arm.cc.optimize.regCoalescer" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.exprSimplification.1007850851" name="Expression simplification" superClass="com.tasking.arm.cc.optimize.exprSimplification" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.genericAsm.1851925962" name="Generic assembly code optimizations" superClass="com.tasking.arm.cc.optimize.genericAsm" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.schedule.463848045" name="Instruction scheduler" superClass="com.tasking.arm.cc.optimize.schedule" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.subscribtStrengthReduction.306462955" name="Subscript strength reduction" superClass="com.tasking.arm.cc.optimize.subscribtStrengthReduction" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.optimize.pipeline.1648191962" name="Software pipelining" superClass="com.tasking.arm.cc.optimize.pipeline" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.compactMaxSize.1098448311" name="Maximum size for code compaction:" superClass="com.tasking.arm.cc.compactMaxSize" value="200" valueType="string"/>
+								<option id="com.tasking.arm.cc.maxCallDepth.533118470" name="Maximum call depth for code compaction:" superClass="com.tasking.arm.cc.maxCallDepth" value="" valueType="string"/>
+								<option id="com.tasking.arm.cc.inline.423487704" name="Always inline function calls" superClass="com.tasking.arm.cc.inline" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.millinking.310950473" name="Build for application wide optimizations (MIL linking)" superClass="com.tasking.arm.cc.millinking" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.cc.globalOptimizationMode.451675634" name="Application wide optimization mode:" superClass="com.tasking.arm.cc.globalOptimizationMode" value="com.tasking.arm.cc.globalOptimizationMode.more" valueType="enumerated"/>
+								<inputType id="com.tasking.arm.cppInputType.78394475" name="C++" superClass="com.tasking.arm.cppInputType"/>
+								<inputType id="com.tasking.arm.cpp.cInputType.609856589" name="C" superClass="com.tasking.arm.cpp.cInputType"/>
+								<inputType id="com.tasking.arm.cc.msInputType.765887363" name="MS" superClass="com.tasking.arm.cc.msInputType"/>
+							</tool>
+							<tool command="ccarm" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.arm.as.abs.debug.1696826359" name="Assembler" superClass="com.tasking.arm.as.abs.debug">
+								<option id="com.tasking.arm.as.nowarnings.1345499014" name="Suppress all warnings" superClass="com.tasking.arm.as.nowarnings" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.as.definedSymbols.1925183717" name="Defined symbols" superClass="com.tasking.arm.as.definedSymbols"/>
+								<option id="com.tasking.arm.as.includePaths.762676103" name="Include paths" superClass="com.tasking.arm.as.includePaths"/>
+								<option id="com.tasking.arm.as.additionalOptions.1602992317" name="Additional options:" superClass="com.tasking.arm.as.additionalOptions" value="" valueType="string"/>
+								<inputType id="com.tasking.arm.asmInputType.1662245119" name="ASM" superClass="com.tasking.arm.asmInputType"/>
+							</tool>
+							<tool command="ccarm" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.arm.lk.abs.debug.666839530" name="Linker" superClass="com.tasking.arm.lk.abs.debug">
+								<option id="com.tasking.arm.lk.lslFile.578724675" name="Linker script file:" superClass="com.tasking.arm.lk.lslFile" value="../TASKING/stm32l1xx_md.lsl" valueType="string"/>
+								<option id="com.tasking.arm.lk.library.1866270609" name="Libraries" superClass="com.tasking.arm.lk.library"/>
+								<option id="com.tasking.arm.lk.libraryDirectory.122337355" name="Library search path" superClass="com.tasking.arm.lk.libraryDirectory"/>
+								<option id="com.tasking.arm.lk.additionalOptions.2095335915" name="Additional options:" superClass="com.tasking.arm.lk.additionalOptions" value="" valueType="string"/>
+								<option id="com.tasking.arm.lk.misc.longBranchVeneers.894009615" name="Generate long-branch veneers" superClass="com.tasking.arm.lk.misc.longBranchVeneers" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.optimize.deleteUnreferencedSections.1361353155" name="Delete unreferenced sections" superClass="com.tasking.arm.lk.optimize.deleteUnreferencedSections" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.optimize.deleteDuplicateCode.1978786197" name="Delete duplicate code" superClass="com.tasking.arm.lk.optimize.deleteDuplicateCode" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.optimize.deleteDuplicateData.1226991418" name="Delete duplicate data" superClass="com.tasking.arm.lk.optimize.deleteDuplicateData" value="false" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.outputFormat.ihex.57395979" name="Generate Intel Hex format file" superClass="com.tasking.arm.lk.outputFormat.ihex" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.optimizefirstFitDecreasing.111499114" name="Use a 'first-fit decreasing' algorithm" superClass="com.tasking.arm.lk.optimizefirstFitDecreasing" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.mapFile.mapFile.786629174" name="Generate map file (.map)" superClass="com.tasking.arm.lk.mapFile.mapFile" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.mapFileFormat.nonAlloc.323788900" name="Include information of non-alloc sections" superClass="com.tasking.arm.lk.mapFileFormat.nonAlloc" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.mapFileFormat.overlay.2117135048" name="Include overlay information" superClass="com.tasking.arm.lk.mapFileFormat.overlay" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.mapFileFormat.lsl.1660502739" name="Include processor and memory information" superClass="com.tasking.arm.lk.mapFileFormat.lsl" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.mapFileFormat.statics.1887473731" name="Include module local symbols information" superClass="com.tasking.arm.lk.mapFileFormat.statics" value="true" valueType="boolean"/>
+								<option id="com.tasking.arm.lk.stripDebug.1219704441" name="Strip symbolic debug information" superClass="com.tasking.arm.lk.stripDebug" value="false" valueType="boolean"/>
+								<inputType id="com.tasking.arm.lkObjInputType.1921927729" name="OBJ" superClass="com.tasking.arm.lkObjInputType"/>
+								<inputType id="com.tasking.arm.lkLibInputType.1525417255" name="LIB" superClass="com.tasking.arm.lkLibInputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.tasking.config.arm.abs.debug.2044455393.355657546" name="icc_measure_Ram.c" rcbsApplicability="disable" resourcePath="User/icc_measure_Ram.c" toolsToInvoke="com.tasking.arm.cc.abs.debug.1657066278.1665977020">
+						<tool id="com.tasking.arm.cc.abs.debug.1657066278.1665977020" name="C/C++ Compiler" superClass="com.tasking.arm.cc.abs.debug.1657066278">
+							<option id="com.tasking.arm.cc.maxCallDepth.958621499" name="Maximum call depth for code compaction:" superClass="com.tasking.arm.cc.maxCallDepth" value="0" valueType="string"/>
+							<inputType id="com.tasking.arm.cppInputType.1321728133" name="C++" superClass="com.tasking.arm.cppInputType"/>
+							<inputType id="com.tasking.arm.cpp.cInputType.2045147208" name="C" superClass="com.tasking.arm.cpp.cInputType"/>
+							<inputType id="com.tasking.arm.cc.msInputType.1784828239" name="MS" superClass="com.tasking.arm.cc.msInputType"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.tasking.toolInfo">
+				<toolInfo>TASKING VX-toolset for ARM Cortex: C compiler (TRIAL VERSION v4.3rb Build 680</toolInfo>
+				<toolInfo>TASKING VX-toolset for ARM Cortex: assembler v4.3rb Build 148</toolInfo>
+				<toolInfo>TASKING VX-toolset for ARM Cortex: control program v4.3rb Build 120</toolInfo>
+				<toolInfo>TASKING VX-toolset for ARM Cortex: object linker (TRIAL VERS v4.3rb Build 142</toolInfo>
+				<toolInfo>TASKING program builder v4.3rb Build 067</toolInfo>
+			</storageModule>
+			<storageModule addStartupFiles="false" moduleId="com.tasking.processor" updateRefProjects="true"/>
+			<storageModule moduleId="com.tasking.flash.settings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="STM3210B-EVAL.com.tasking.arm.target.abs.491846486" name="TASKING ARM Application" projectType="com.tasking.arm.target.abs"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.arm.abs.release.1258418627;com.tasking.config.arm.abs.release.1258418627.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.arm.TskARMScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.arm.abs.debug.2044455393;com.tasking.config.arm.abs.debug.2044455393.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.arm.TskARMScannerInfo"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.arm.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.arm.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.arm.cpplanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.arm.cpplanguage"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/STM3210B-EVAL"/>
+	</storageModule>
+</cproject>
